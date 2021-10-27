@@ -22,9 +22,11 @@ main()
     for (i = 1; i <= n; i += 2)                                                 //sum of odd number
 
         sum_odd=sum_odd+arr[i];
+    
         printf("the sum of the odd numbers :%d\n",sum_odd);
 
     for (i = 2; i <= n; i += 2)                                                 //sum of even number
         sum_even=sum_even+arr[i];
+    
         printf("the sum of the even numbers is:%d\n",sum_even);
 }
